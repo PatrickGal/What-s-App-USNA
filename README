@@ -1,0 +1,24 @@
+What-s-App-USNA
+Capstone project for USNA Team 14.
+
+Team Members:
+  Tom Dias (Team Lead)
+  Patrick Gallagher
+  Won Jong
+  Tim Kim
+
+Customer:
+  LT Bole (Supply Department)
+
+Technical Supervisor:
+  Capt Blevins (CS Department)
+
+The purpose of this capstone is to create an app the pools together various resources that could be helpful to Midshipmen. A large focus of this capstone is utilizing existing resources as much as possible.
+
+Source code for Android Studio has been added. In order to unzip the file and access the source code, you need both the zip file and the z01 file.
+
+Known Issues:
+The app can have display issues with colors and styles (purely aesthetic, not functional) when used across multiple APIs. Depending on the API the end user has on their phone, the app may not display properly. The app creates two icons on the phone. The second icon works properly, and the first is functional but without extra pieces added in for style and aesthetics. Currently unknown as to why. Weather functionality is still absent due to transitioning dynamic php functions to static javascript functions.
+
+Follow-On Advice:
+A piece of functionality requested early on that eventually got dropped was a customizable home-screen that displays information from specific activities (sports, weather, mwf, etc). Adding that would allow for midshipmen to set up what info they want to see at a glance throughout the day. Polling function could be improved so that links to polls are created dynamically in the app as someone creates and uploads a Google Form to a specific location. Unknown as to how feasible this is. There is no Apple version of the app and the app is not on the Google Play Store or the Apple Store. A more permanent solution to the backend needs to be devised as the current solution only allows for static javascript web pages. Functionality can be achieved through static javascript web pages, but is significantly easier and potentially more secure if dynamic php web pages can be used. Lastly, the app needs access to ITSD resources for this app to be truly invaluable to the Brigade.
